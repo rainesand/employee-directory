@@ -1,16 +1,14 @@
 import React from 'react';
-import Main from './components/Main';
-import Wrapper from './components/Wrapper';
-import Header from './components/Header';
-import "./App.css";
+import Search from "./components/Form";
+import Table from "./components/table/table";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Grid, Row, Col} from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
-   <Wrapper>
-     <Header />
-     <Main />
-   </Wrapper>
+    <div>
+    <Search />
     </div>
   );
 }
