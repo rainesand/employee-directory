@@ -35,7 +35,7 @@ function Table() {
 
     function renderTableHeader() {
         if (!employees) {
-            var employees = [{ "employee_id": 1, "first_name": "Saul", "last_name": "Sallah", "role_id": 1, "manager_id": 3 }]
+            var employees = [{ "employee_id": 1, "first_name": "Andrew", "last_name": "Raines", "role_id": 1, "manager_id": 3 }]
         }
         let header = Object.keys(employees[0])
         return header.map((key, index) => {

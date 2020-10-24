@@ -3,8 +3,8 @@ import Form from 'react-bootstrap/Form'
 import './style.css';
 import { Grid, Row, Col, Container } from 'react-bootstrap';
 import API from "../../utils/API";
-import Table from "../table/table"
-import Context from "../../utils/userContext";
+import Table from "../Table"
+import Context from "../../utils/DataAreaContext";
 
 function Search() {
 
